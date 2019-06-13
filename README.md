@@ -1,0 +1,1 @@
+https://www.linkedin.com/pulse/game-life-spoken-kotlin-robert-daniel-baboi/?published=t
