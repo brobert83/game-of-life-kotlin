@@ -100,7 +100,7 @@ tailrec fun Array<Array<Cell>>.generation(generationIndex: Int): Array<Array<Cel
     else {
 
         val newCellsInit = padMatrix()
-        val newCells = Array(newCellsInit.size) { _ -> Array(newCellsInit[0].size) { _ -> DEAD } }
+        val newCells = Array(newCellsInit.size) { _ -> newLine(newCellsInit[0].size) }
 
         for (x in newCells.indices) {
             for (y in newCells[0].indices) {
