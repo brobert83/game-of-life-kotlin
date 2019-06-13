@@ -115,4 +115,4 @@ tailrec fun Array<Array<Cell>>.generation(generationIndex: Int): Array<Array<Cel
     }
 }
 
-fun generation(cells: Array<Array<Int>>, count: Int): Array<Array<Int>> = cells.parseInput().generation(count).toOutput()
+fun generation(cells: Array<Array<Int>>, count: Int) = cells.parseInput().generation(count).toOutput()
